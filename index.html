@@ -5,10 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
-  <!-- icon-link -->
   <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-  <!-- slider link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,12 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- end  -->
-
-  <!-- tailwind cdn  -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- root link  -->
-
   <script>
     tailwind.config = {
       theme: {
@@ -34,16 +26,16 @@
             grey: "#B8B9C5",
             darkBlue: "#111131",
           },
-          fontFamily: {
-
-          },
         },
       },
     }
   </script>
   <style>
-    .slick-dots li button:before {
-      content: unset;
+    .slick-dots li.slick-active {
+      max-width: 20px;
+      height: 6px;
+      background: #62C9CC;
+      border-radius: 30px;
     }
 
     .slick-dots li {
@@ -55,18 +47,15 @@
       position: relative;
     }
 
-    .slick-dots li.slick-active {
-      max-width: 20px;
-      height: 6px;
-      background: #62C9CC;
-      border-radius: 30px;
+    .slick-dots li button:before {
+      content: unset;
     }
   </style>
 </head>
 
 <body>
   <section>
-    <nav class=" bg-lightDarkBlue px-7 min-h-20 border border-lightBlue w-full flex items-center justify-between">
+    <nav class="px-7 bg-lightDarkBlue  min-h-20 border border-lightBlue w-full flex items-center justify-between">
       <div class=" gap-40 flex items-center ">
         <div class="font-medium text-3xl text-white">
           anterata
@@ -134,7 +123,7 @@
         </div>
       </div>
     </nav>
-    <div class="flex bg-blue ">
+    <div class=" bg-blue flex">
       <div class=" bg-lightDarkBlue border border-lightBlue h-[800px] w-72 pt-3.5 ">
         <div class=" flex items center gap-3 py-3.5 hover:bg-skyBlue max-w-60 mb-2 ms-7 px-4 rounded-sm group ">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -564,7 +553,6 @@
   });
 
 </script>
-<!-- slider  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
   integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -572,9 +560,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
   integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- end  -->
-
-<!-- first slider -->
 <script>
   $('.show-four').slick({
     dots: true,
@@ -583,7 +568,7 @@
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
-    
+
     responsive: [
 
       {
