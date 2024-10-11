@@ -30,34 +30,13 @@
       },
     }
   </script>
-  <style>
-    .slick-dots li.slick-active {
-      max-width: 20px;
-      height: 6px;
-      background: #62C9CC;
-      border-radius: 30px;
-    }
-
-    .slick-dots li {
-      max-width: 20px;
-      height: 6px;
-      background: white;
-      border-radius: 30px;
-      top: 18px;
-      position: relative;
-    }
-
-    .slick-dots li button:before {
-      content: unset;
-    }
-  </style>
 </head>
 
 <body>
-  <section>
+  <section >
     <nav class="px-7 bg-lightDarkBlue  min-h-20 border border-lightBlue w-full flex items-center justify-between">
       <div class=" gap-40 flex items-center ">
-        <div class="font-medium text-3xl text-white">
+        <div class="font-medium text-3xl text-white hover:text-skyBlue cursor-pointer">
           anterata
         </div>
         <form
@@ -67,7 +46,7 @@
               class="text-sm font-normal outline-0 text-white bg-lightBlue ">
           </label>
           <div class=" pr-4">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="hover:scale-110" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.146 15.3707 4.888 14.112C3.63 12.8533 3.00067 11.316 3 9.5C3 7.68333 3.62933 6.146 4.888 4.888C6.14667 3.63 7.684 3.00067 9.5 3C11.3167 3 12.854 3.62933 14.112 4.888C15.37 6.14667 15.9993 7.684 16 9.5C16 10.2333 15.8833 10.925 15.65 11.575C15.4167 12.225 15.1 12.8 14.7 13.3L21 19.6L19.6 21ZM9.5 14C10.75 14 11.8127 13.5623 12.688 12.687C13.5633 11.8117 14.0007 10.7493 14 9.5C14 8.25 13.5623 7.18733 12.687 6.312C11.8117 5.43667 10.7493 4.99933 9.5 5C8.25 5 7.18733 5.43767 6.312 6.313C5.43667 7.18833 4.99933 8.25067 5 9.5C5 10.75 5.43767 11.8127 6.313 12.688C7.18833 13.5633 8.25067 14.0007 9.5 14Z"
                 fill="#62C9CC" />
@@ -80,7 +59,7 @@
         class=" max-xl:w-full max-xl:h-full max-xl:bg-orange z-10 max-xl:translate-x-full left-0 top-0 max-xl:flex-col max-xl:justify-center max-xl:items-center transition ease-out duration-250 max-xl:bg-blue max-xl:min-h-screen flex gap-2.5 items-center xl:relative fixed">
         <li>
           <a href="#">
-            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="hover:scale-110" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M12.5098 1C12.2231 0.999962 11.9398 1.06155 11.679 1.18059C11.4182 1.29963 11.1861 1.47333 10.9983 1.68994C10.8105 1.90654 10.6715 2.16098 10.5907 2.43601C10.5098 2.71104 10.4891 3.00024 10.5298 3.284C9.08039 3.71193 7.80833 4.59722 6.90356 5.80767C5.99878 7.01812 5.50985 8.48877 5.50977 10V18H4.50977C4.24455 18 3.9902 18.1054 3.80266 18.2929C3.61512 18.4804 3.50977 18.7348 3.50977 19C3.50977 19.2652 3.61512 19.5196 3.80266 19.7071C3.9902 19.8946 4.24455 20 4.50977 20H20.5098C20.775 20 21.0293 19.8946 21.2169 19.7071C21.4044 19.5196 21.5098 19.2652 21.5098 19C21.5098 18.7348 21.4044 18.4804 21.2169 18.2929C21.0293 18.1054 20.775 18 20.5098 18H19.5098V10C19.5097 8.48877 19.0207 7.01812 18.116 5.80767C17.2112 4.59722 15.9391 3.71193 14.4898 3.284C14.5305 3.00024 14.5097 2.71104 14.4289 2.43601C14.348 2.16098 14.209 1.90654 14.0212 1.68994C13.8335 1.47333 13.6013 1.29963 13.3405 1.18059C13.0798 1.06155 12.7964 0.999962 12.5098 1ZM14.5098 22C14.5098 22.2652 14.4044 22.5196 14.2169 22.7071C14.0293 22.8946 13.775 23 13.5098 23H11.5098C11.2445 23 10.9902 22.8946 10.8027 22.7071C10.6151 22.5196 10.5098 22.2652 10.5098 22C10.5098 21.7348 10.6151 21.4804 10.8027 21.2929C10.9902 21.1054 11.2445 21 11.5098 21H13.5098C13.775 21 14.0293 21.1054 14.2169 21.2929C14.4044 21.4804 14.5098 21.7348 14.5098 22Z"
                 fill="white" />
@@ -90,10 +69,10 @@
           </a>
         </li>
         <li>
-          <div class="flex items-center bg-lightBlue rounded-full py-1 pl-1.5 pr-3.5 cursor-pointer">
+          <div class="flex items-center bg-lightBlue rounded-full py-1 pl-1.5 pr-3.5 cursor-pointer hover:bg-skyBlue">
             <img src="./assets/image/nav-profile-pic.png" alt="">
             <span class="text-white pl-2">Jhon Doe</span>
-            <svg class="ml-6" width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="ml-6 hover:scale-125" width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M6.91843 5.99068L7.27198 5.63712L11.7608 1.14834C11.8374 1.07563 11.9392 1.03545 12.0449 1.03636C12.1518 1.03729 12.254 1.08016 12.3296 1.15572C12.4051 1.23129 12.448 1.33351 12.4489 1.44037C12.4499 1.54607 12.4097 1.64794 12.337 1.72452L7.20658 6.85491C7.20656 6.85493 7.20655 6.85495 7.20653 6.85497C7.1301 6.93134 7.02648 6.97424 6.91843 6.97424C6.81039 6.97424 6.70676 6.93134 6.63034 6.85497L6.63028 6.85491M6.91843 5.99068L6.63028 6.85491M6.91843 5.99068L6.56488 5.63712M6.91843 5.99068L6.56488 5.63712M6.63028 6.85491L1.49628 1.72091C1.49627 1.7209 1.49625 1.72088 1.49623 1.72086C1.41986 1.64443 1.37695 1.54081 1.37695 1.43276C1.37695 1.32474 1.41984 1.22114 1.49618 1.14472C1.49621 1.14469 1.49625 1.14465 1.49628 1.14461M6.63028 6.85491L1.49628 1.14461M1.49628 1.14461C1.5727 1.06827 1.6763 1.02539 1.78433 1.02539C1.89237 1.02539 1.996 1.06829 2.07242 1.14467M1.49628 1.14461L2.07242 1.14467M2.07242 1.14467C2.07244 1.14469 2.07246 1.1447 2.07248 1.14472M2.07242 1.14467L2.07248 1.14472M2.07248 1.14472L6.56488 5.63712M2.07248 1.14472L6.56488 5.63712"
                 stroke="white" />
@@ -183,37 +162,37 @@
       </div>
       <div class="bg-blue w-6/12 px-5">
         <div class="flex gap-2.5 items-center pt-5">
-          <span class="text-2xl font-medium text-white text-center">Ferrominera Orinoco</span>
-          <span class="py-2 px-4 font-normal text-sm bg-lightBlue text-white rounded-full text-center">Iron
+          <span class="text-2xl font-medium text-white text-center hover:text-skyBlue">Ferrominera Orinoco</span>
+          <span class="py-2 px-4 font-normal text-sm bg-lightBlue text-white rounded-full text-center hover:bg-skyBlue">Iron
             producer</span>
         </div>
         <div class="flex flex-wrap">
           <div class="w-full md:w-6/12 lg:w-4/12">
-            <div class="py-5 pl-3 pr-7 bg-lightDarkBlue rounded-xl mt-4 min-h-32 flex flex-col justify-center">
-              <div class="text-2xl font-medium text-skyBlue">
+            <div class="py-5 pl-3 pr-7 bg-lightDarkBlue rounded-xl mt-4 min-h-32 flex flex-col justify-center  hover:scale-105">
+              <div class="text-2xl font-medium text-skyBlue hover:text-white">
                 Working Capital Loan
               </div>
-              <span class="font-normal text-sm text-grey">
+              <span class="font-normal text-sm text-grey hover:text-white">
                 Type of instrument
               </span>
             </div>
           </div>
           <div class="w-full md:w-6/12 lg:w-4/12 px-4 max-md:px-0">
-            <div class="py-5 pl-3 pr-7 bg-lightDarkBlue rounded-xl mt-4 min-h-32 flex flex-col justify-center">
-              <div class="text-2xl font-medium text-skyBlue">
+            <div class="py-5 pl-3 pr-7 bg-lightDarkBlue rounded-xl mt-4 min-h-32 flex flex-col justify-center  hover:scale-105">
+              <div class="text-2xl font-medium text-skyBlue hover:text-white">
                 16.00%
               </div>
-              <span class="font-normal text-sm text-grey">
+              <span class="font-normal text-sm text-grey hover:text-white">
                 Interest rate
               </span>
             </div>
           </div>
           <div class="w-full md:w-6/12 lg:w-4/12">
-            <div class="py-5 pl-3 pr-7 bg-lightDarkBlue rounded-xl mt-4 min-h-32 flex flex-col justify-center">
-              <div class="text-2xl font-medium text-skyBlue">
+            <div class="py-5 pl-3 pr-7 bg-lightDarkBlue rounded-xl mt-4 min-h-32 flex flex-col justify-center hover:scale-105">
+              <div class="text-2xl font-medium text-skyBlue hover:text-white">
                 $ 5,565,099.00
               </div>
-              <span class="font-normal text-sm text-grey">
+              <span class="font-normal text-sm text-grey hover:text-white">
                 Total amount
               </span>
             </div>
@@ -252,7 +231,7 @@
             <div class="w-full lg:w-6/12 xl:w-4/12 max-xl:pt-7 pb-7 pt-12">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="0.5" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <path
@@ -262,15 +241,15 @@
 
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">Working Capital Loan</div>
-                  <div class="text-grey text-sm font-normal">Type of instrument</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">Working Capital Loan</div>
+                  <div class="text-grey text-sm font-normal hover:text-skyBlue">Type of instrument</div>
                 </div>
               </div>
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 max-xl:pt-7 max-lg:pt-0 pb-7 pt-12">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="1" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <g clip-path="url(#clip0_78165_1738)">
@@ -289,15 +268,15 @@
                   </svg>
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">Pantera Exchange</div>
-                  <div class="text-grey text-sm font-normal">Transmitter</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">Pantera Exchange</div>
+                  <div class="text-grey text-sm font-normal hover:text-skyBlue">Transmitter</div>
                 </div>
               </div>
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 max-xl:pt-0 pb-7 pt-12">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="0.5" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <path
@@ -309,15 +288,15 @@
                   </svg>
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">Compass Bank</div>
-                  <div class="text-grey text-sm font-normal">Settlor entity</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">Compass Bank</div>
+                  <div class="text-grey text-sm font-normal hover:text-skyBlue">Settlor entity</div>
                 </div>
               </div>
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 pb-7">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="0.5" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <path
@@ -329,15 +308,15 @@
                   </svg>
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">$ 5565099.00</div>
-                  <div class="text-grey text-sm font-normal">Total amount</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">$ 5565099.00</div>
+                  <div class="text-grey text-sm font-norma hover:text-skyBlue">Total amount</div>
                 </div>
               </div>
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 pb-7">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="0.5" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <path
@@ -346,15 +325,15 @@
                   </svg>
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">2 months</div>
-                  <div class="text-grey text-sm font-normal">Estimated repayment date</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">2 months</div>
+                  <div class="text-grey text-sm font-normal hover:text-skyBlue">Estimated repayment date</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="bg-lightDarkBlue px-5 rounded-xl mb-16">
-          <div class="font-medium text-xl text-white py-4">
+          <div class="font-medium text-xl text-white py-4 hover:text-skyBlue">
             About company
           </div>
           <span class="font-normal text-sm text-white pb-1">
@@ -371,7 +350,7 @@
             <div class="w-full lg:w-6/12 xl:w-4/12 py-4">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="0.5" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <path
@@ -380,15 +359,15 @@
                   </svg>
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">$ 5565099.00</div>
-                  <div class="text-grey text-sm font-normal">Total amount</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">$ 5565099.00</div>
+                  <div class="text-grey text-sm font-normal hover:text-skyBlue">Total amount</div>
                 </div>
               </div>
             </div>
             <div class="w-full lg:w-6/12 xl:w-4/12 py-4">
               <div class="flex items-center gap-2.5">
                 <div class="">
-                  <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg class="hover:scale-110" width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.5" width="36" height="36" rx="8" fill="#62C9CC" />
                     <rect x="0.5" y="1" width="35" height="35" rx="7.5" stroke="#62C9CC" stroke-opacity="0.12" />
                     <path
@@ -397,8 +376,8 @@
                   </svg>
                 </div>
                 <div class="">
-                  <div class="text-white text-sm font-normal">2 months</div>
-                  <div class="text-grey text-sm font-normal">Estimated repayment date</div>
+                  <div class="text-white text-sm font-normal hover:text-skyBlue">2 months</div>
+                  <div class="text-grey text-sm font-normal hover:text-skyBlue">Estimated repayment date</div>
                 </div>
               </div>
             </div>
@@ -407,7 +386,7 @@
       </div>
       <div class="w-3/12">
         <div class="">
-          <button class="px-7 py-4 bg-lightBlue rounded-lg mt-4 mb-2.5 text-white">Back</button>
+          <button class="px-7 py-4 bg-lightBlue rounded-lg mt-4 mb-2.5 text-white hover:bg-skyBlue">Back</button>
         </div>
         <div class=" border rounded-xl px-4 pb-5 pt-4 bg-lightDarkBlue border-lightBlue">
           <div class="box">
@@ -457,7 +436,7 @@
           <div class="w-full min-h-0.5 bg-lightDarkBlue"></div>
           <div class="">
             <button
-              class="py-4 font-medium text-base flex bg-skyBlue w-full rounded-xl justify-center mt-6 text-white">Invest
+              class="py-4 font-medium text-base flex bg-skyBlue w-full rounded-xl justify-center mt-6 text-white hover:bg-white hover:text-skyBlue border-[3px] border-skyBlue">Invest
               now</button>
           </div>
         </div>
@@ -504,27 +483,27 @@
       </div>
       <div class="w-4/12">
         <div class="flex justify-center my-3 gap-4">
-          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full" href="https://www.facebook.com/">
+          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full hover:bg-white" href="https://www.facebook.com/">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
                 fill="#62C9CC" />
             </svg></a>
-          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full" href="https://www.instagram.com/">
+          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full hover:bg-white" href="https://www.instagram.com/">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M13.0286 2.00123C13.7583 1.99843 14.488 2.00576 15.2176 2.02323L15.4116 2.03023C15.6356 2.03823 15.8566 2.04823 16.1236 2.06023C17.1876 2.11023 17.9136 2.27823 18.5506 2.52523C19.2106 2.77923 19.7666 3.12323 20.3226 3.67923C20.831 4.17884 21.2244 4.78318 21.4756 5.45023C21.7226 6.08723 21.8906 6.81423 21.9406 7.87823C21.9526 8.14423 21.9626 8.36623 21.9706 8.59023L21.9766 8.78423C21.9943 9.51342 22.002 10.2428 21.9996 10.9722L22.0006 11.7182V13.0282C22.003 13.758 21.9954 14.4877 21.9776 15.2172L21.9716 15.4112C21.9636 15.6352 21.9536 15.8562 21.9416 16.1232C21.8916 17.1872 21.7216 17.9132 21.4756 18.5502C21.2252 19.218 20.8317 19.8228 20.3226 20.3222C19.8225 20.8306 19.2179 21.224 18.5506 21.4752C17.9136 21.7222 17.1876 21.8902 16.1236 21.9402C15.8566 21.9522 15.6356 21.9622 15.4116 21.9702L15.2176 21.9762C14.4881 21.994 13.7583 22.0017 13.0286 21.9992L12.2826 22.0002H10.9736C10.2438 22.0027 9.5141 21.995 8.78458 21.9772L8.59058 21.9712C8.35319 21.9626 8.11585 21.9526 7.87858 21.9412C6.81458 21.8912 6.08858 21.7212 5.45058 21.4752C4.78326 21.2246 4.17881 20.8311 3.67958 20.3222C3.17062 19.8225 2.7768 19.2178 2.52558 18.5502C2.27858 17.9132 2.11058 17.1872 2.06058 16.1232C2.04944 15.8859 2.03944 15.6486 2.03058 15.4112L2.02558 15.2172C2.00714 14.4877 1.99881 13.758 2.00058 13.0282V10.9722C1.99779 10.2428 2.00512 9.51343 2.02258 8.78423L2.02958 8.59023C2.03758 8.36623 2.04758 8.14423 2.05958 7.87823C2.10958 6.81323 2.27758 6.08823 2.52458 5.45023C2.77595 4.78285 3.17054 4.17868 3.68058 3.68023C4.17947 3.17098 4.78354 2.7768 5.45058 2.52523C6.08858 2.27823 6.81358 2.11023 7.87858 2.06023L8.59058 2.03023L8.78458 2.02523C9.51376 2.0068 10.2432 1.99847 10.9726 2.00023L13.0286 2.00123ZM12.0006 7.00123C11.3381 6.99186 10.6803 7.11425 10.0656 7.3613C9.45077 7.60834 8.89122 7.97511 8.41942 8.44029C7.94762 8.90546 7.57298 9.45977 7.31726 10.071C7.06155 10.6822 6.92987 11.3382 6.92987 12.0007C6.92987 12.6633 7.06155 13.3192 7.31726 13.9305C7.57298 14.5417 7.94762 15.096 8.41942 15.5612C8.89122 16.0264 9.45077 16.3931 10.0656 16.6402C10.6803 16.8872 11.3381 17.0096 12.0006 17.0002C13.3267 17.0002 14.5984 16.4734 15.5361 15.5358C16.4738 14.5981 17.0006 13.3263 17.0006 12.0002C17.0006 10.6741 16.4738 9.40238 15.5361 8.4647C14.5984 7.52701 13.3267 7.00123 12.0006 7.00123ZM12.0006 9.00123C12.3991 8.99389 12.7951 9.06603 13.1654 9.21344C13.5357 9.36085 13.8729 9.58057 14.1574 9.85978C14.4418 10.139 14.6678 10.4721 14.822 10.8396C14.9763 11.2071 15.0558 11.6016 15.0558 12.0002C15.0559 12.3988 14.9766 12.7934 14.8224 13.1609C14.6683 13.5285 14.4424 13.8617 14.1581 14.141C13.8737 14.4203 13.5366 14.6401 13.1663 14.7876C12.796 14.9352 12.4001 15.0074 12.0016 15.0002C11.2059 15.0002 10.4429 14.6842 9.88026 14.1216C9.31765 13.5589 9.00158 12.7959 9.00158 12.0002C9.00158 11.2046 9.31765 10.4415 9.88026 9.87891C10.4429 9.3163 11.2059 9.00023 12.0016 9.00023L12.0006 9.00123ZM17.2506 5.50123C16.928 5.51414 16.6229 5.65138 16.3992 5.8842C16.1755 6.11702 16.0506 6.42736 16.0506 6.75023C16.0506 7.0731 16.1755 7.38344 16.3992 7.61626C16.6229 7.84908 16.928 7.98632 17.2506 7.99923C17.5821 7.99923 17.9 7.86753 18.1345 7.63311C18.3689 7.39869 18.5006 7.08075 18.5006 6.74923C18.5006 6.41771 18.3689 6.09977 18.1345 5.86535C17.9 5.63093 17.5821 5.49923 17.2506 5.49923V5.50123Z"
                 fill="#62C9CC" />
             </svg>
           </a>
-          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full" href="https://x.com/">
+          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full hover:bg-white" href="https://x.com/">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M22.4591 6C21.6891 6.35 20.8591 6.58 19.9991 6.69C20.8791 6.16 21.5591 5.32 21.8791 4.31C21.0491 4.81 20.1291 5.16 19.1591 5.36C18.3691 4.5 17.2591 4 15.9991 4C13.6491 4 11.7291 5.92 11.7291 8.29C11.7291 8.63 11.7691 8.96 11.8391 9.27C8.27906 9.09 5.10906 7.38 2.99906 4.79C2.62906 5.42 2.41906 6.16 2.41906 6.94C2.41906 8.43 3.16906 9.75 4.32906 10.5C3.61906 10.5 2.95906 10.3 2.37906 10V10.03C2.37906 12.11 3.85906 13.85 5.81906 14.24C5.18979 14.4122 4.52916 14.4362 3.88906 14.31C4.16067 15.1625 4.6926 15.9084 5.41008 16.4429C6.12756 16.9775 6.99451 17.2737 7.88906 17.29C6.37269 18.4904 4.49306 19.1393 2.55906 19.13C2.21906 19.13 1.87906 19.11 1.53906 19.07C3.43906 20.29 5.69906 21 8.11906 21C15.9991 21 20.3291 14.46 20.3291 8.79C20.3291 8.6 20.3291 8.42 20.3191 8.23C21.1591 7.63 21.8791 6.87 22.4591 6Z"
                 fill="#62C9CC" />
             </svg>
           </a>
-          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full" href="https://in.linkedin.com/">
+          <a class="px-2.5 py-2.5 border-2 border-skyBlue rounded-full hover:bg-white" href="https://in.linkedin.com/">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M6.94141 5.001C6.94114 5.53143 6.73017 6.04004 6.35491 6.41492C5.97965 6.78981 5.47084 7.00027 4.94041 7C4.40997 6.99974 3.90137 6.78877 3.52649 6.41351C3.1516 6.03825 2.94114 5.52943 2.94141 4.999C2.94167 4.46857 3.15264 3.95996 3.5279 3.58508C3.90316 3.21019 4.41197 2.99974 4.94241 3C5.47284 3.00027 5.98144 3.21123 6.35633 3.58649C6.73121 3.96175 6.94167 4.47057 6.94141 5.001ZM7.00141 8.481H3.00141V21.001H7.00141V8.481ZM13.3214 8.481H9.34141V21.001H13.2814V14.431C13.2814 10.771 18.0514 10.431 18.0514 14.431V21.001H22.0014V13.071C22.0014 6.901 14.9414 7.131 13.2814 10.161L13.3214 8.481Z"
@@ -615,5 +594,26 @@
 
   });
 </script>
+<style>
+  .slick-dots li.slick-active {
+    max-width: 20px;
+    height: 6px;
+    background: #62C9CC;
+    border-radius: 30px;
+  }
+
+  .slick-dots li {
+    max-width: 20px;
+    height: 6px;
+    background: white;
+    border-radius: 30px;
+    top: 18px;
+    position: relative;
+  }
+
+  .slick-dots li button:before {
+    content: unset;
+  }
+</style>
 
 </html>
